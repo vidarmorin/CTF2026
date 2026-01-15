@@ -1,0 +1,31 @@
+.app-container {
+  width: 100%;
+  min-height: 100vh;
+  background-color: #0a0a0f;
+  overflow-x: hidden;
+}
+
+a {
+  color: #00ffff;
+  text-decoration: none;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+a:hover {
+  color: #ff00ff;
+  text-shadow: 0 0 10px #ff00ff;
+}
+
+button {
+  font-family: 'Courier New', monospace;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+code {
+  background-color: #1a1a2e;
+  padding: 2px 6px;
+  border-radius: 3px;
+  color: #00ffff;
+}

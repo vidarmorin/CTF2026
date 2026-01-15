@@ -1,0 +1,52 @@
+.neon-button {
+  padding: 12px 30px;
+  font-size: 1rem;
+  font-weight: bold;
+  border: 2px solid;
+  border-radius: 4px;
+  background-color: transparent;
+  transition: all 0.3s ease;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  cursor: pointer;
+  box-shadow: 0 0 10px;
+}
+
+.neon-button-pink {
+  color: #ff00ff;
+  border-color: #ff00ff;
+  box-shadow: 0 0 10px #ff00ff, inset 0 0 10px rgba(255, 0, 255, 0.1);
+}
+
+.neon-button-pink:hover {
+  background-color: rgba(255, 0, 255, 0.1);
+  box-shadow: 0 0 20px #ff00ff, inset 0 0 20px rgba(255, 0, 255, 0.2);
+  transform: scale(1.05);
+}
+
+.neon-button-pink:active {
+  transform: scale(0.98);
+}
+
+.neon-button-cyan {
+  color: #00ffff;
+  border-color: #00ffff;
+  box-shadow: 0 0 10px #00ffff, inset 0 0 10px rgba(0, 255, 255, 0.1);
+}
+
+.neon-button-cyan:hover {
+  background-color: rgba(0, 255, 255, 0.1);
+  box-shadow: 0 0 20px #00ffff, inset 0 0 20px rgba(0, 255, 255, 0.2);
+  transform: scale(1.05);
+}
+
+.neon-button-cyan:active {
+  transform: scale(0.98);
+}
+
+@media (max-width: 600px) {
+  .neon-button {
+    padding: 10px 20px;
+    font-size: 0.9rem;
+  }
+}
